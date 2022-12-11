@@ -1,7 +1,7 @@
 {
   "name": "espione",
   "version": "1.0.0",
-  "description": "",
+  "description": "Prints the currently open websites in Firefox",
   "bin": "app.js",
   "main": "app.js",
   "type": "commonjs",
@@ -9,7 +9,11 @@
     "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Puneet Arora",
+    "email": "puneet2715@gmail.com",
+    "url": "https://resume.shadowdragon.one"
+  },
   "license": "ISC",
   "pkg": {
     "output": "./dist/"
