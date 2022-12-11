@@ -1,0 +1,22 @@
+{
+  "name": "espione",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "app.js",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "pkg": {
+    "output": "./dist/"
+  },
+  "dependencies": {
+    "find-process": "^1.4.7",
+    "lz4": "^0.6.5",
+    "pkg": "^5.8.0"
+  }
+}
