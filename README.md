@@ -11,4 +11,4 @@
 ---
 
 - Code Cleanup 
-- Looking into finding a way to reading the session file for chromium based browsers as well
+- Looking into finding a way to reading the session file for chromium based browsers as well ( shadow copy might be a suitable way, will have to dig into it )
