@@ -21,7 +21,7 @@ const SESSIONSTORE_BACKUPS = "sessionstore-backups";
 
 async function getFirefoxProfiles() {
   const profilesDirNames = await getDirectories(FIREFOX_PROFILE_PATH);
-
+  
   const profilesDir = profilesDirNames.map((p) =>
     join(FIREFOX_PROFILE_PATH, p)
   );
@@ -34,7 +34,7 @@ async function getFirefoxProfiles() {
 /**
  *
  * @param {string[]} profilesDir
- * @returns JSON[]
+ * @returns {JSON[]} sessions
  */
 async function getFirefoxSessions(profilesDir) {
   const sessions = [];
